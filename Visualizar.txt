@@ -1,0 +1,17 @@
+<style>
+p{width:300px;
+padding: 20px;
+    background-color: #333;
+    color: #ddd;
+    width: 300px;
+    font-size: 1.2em;
+    border-radius: 26px;
+margin:0}
+</style>
+<p>[%'Nombre: ' ||  "Apellidos"  || ' ' ||  "Nombres" %]<br>
+[% 'Dirección: '  || "Direccion"  %]<br>
+[% 'Pisos: ' ||  "PISO(S)"  %]<br>
+[%'Puertas: ' ||   "PUERTA(S)"  %]<br>
+[%'Suministro: ' ||   "Suministro"  
+%]
+</p>
